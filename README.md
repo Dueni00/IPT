@@ -1,5 +1,5 @@
 #To run this code
-1. mpm install
+1. npm install
 #after installation
 2. npm install react-router-dom
 #after Installation
