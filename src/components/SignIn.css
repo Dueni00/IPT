@@ -1,0 +1,131 @@
+
+.App {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  .logo-container {
+    align-items: center;
+    margin-right: 300px;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: -20px;
+    font-size: 48px;
+    font-family: "Lalezar", system-ui;
+  }
+  
+  
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 400px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  .Email {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .Password {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /*.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }*/
+  
+  .submit-button {
+    width: 400px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Register:hover {
+    background-color: #0a3b02;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .RememberMe a{
+    margin-left: 20px;
+  
+  }
+  .RememberMe {
+    display: flex;
+    padding-left: 0px;
+    font-size: 15px;
+    justify-content: space-between;
+  
+  }
+  
+  .Forgot {
+    display: flex;
+    padding-left: 270px;
+    flex-direction: row;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .NoAccount {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Register {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding: 10px;
+    background-color: #46B733;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Logo {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }

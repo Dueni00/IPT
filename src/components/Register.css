@@ -1,0 +1,62 @@
+.register-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensures the form takes up the full height of the viewport */
+  }
+  
+  .register-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px; /* Adjusted to 5px */
+  }
+  
+  .register-input {
+    height: 40px;
+    width: 290px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+  }
+  
+  .register-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .register-button {
+    width: 290px; /* Adjust width as needed */
+    height: 40px;
+    padding: 10px;
+    background-color: #DCDCDC;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .register-link {
+    color: blue;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
