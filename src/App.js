@@ -4,9 +4,10 @@ import logo from './assets/logo.jpeg';
 import facebook from './assets/facebook.png';
 import google from './assets/google.png';
 import twitter from './assets/twitter.png';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'; // Import useHistory
 import Forgot from './components/forgot';
 import Register from './components/Register';
+import Home from './components/homepage';
 
 function App() {
   const [username, setUsername] = useState('');
@@ -65,7 +66,9 @@ function App() {
                   {/* forgot password */}
                   <Link to="/forgot" className="forgot-password">Forgot Password</Link>
                 </div>
-                <button type="submit" className="submit-button">Sign In</button>
+                  <Link to="/homepage" className="homepage-link">
+                    <button type="submit" className="submit-button">Sign In</button>
+                  </Link>
                 <div className="NoAccount">
                   <p>Don't have an account?</p>
                 </div>
@@ -82,6 +85,9 @@ function App() {
           } />
           <Route path="/forgot" element={<Forgot />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/homepage" element={<Home />} />
+          <Route path="/profile" element={<Home />} />
+          <Route path="/explore" element={<Home />} />
         </Routes>
       </div>
     </BrowserRouter>

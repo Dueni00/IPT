@@ -1,0 +1,32 @@
+.navbar {
+  width: 1920px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white; 
+  position: fixed; 
+  top: 0;
+  border-bottom: 1px solid #dcdcdc; 
+}
+
+.navbar-button {
+  width: calc(1920px / 3);
+  height: 89px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+.icon {
+  width: 27px;
+  height: 25px;
+  color: #dcdcdc; 
+  transition: color 0.3s ease; 
+}
+
+.navbar-button:hover .icon {
+  color: #27AFFA; 
+}

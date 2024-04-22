@@ -80,7 +80,6 @@ function App() {
         
         </div>
         <button type="Register" className="Register">Register</button>
-
         <div className='Logo'>
         <img src={facebook} alt='facebook' style={{height:'36px',weight:'38px'}}/>
         <img src={google} alt='google' style={{height:'36px',weight:'38px'}}/>
